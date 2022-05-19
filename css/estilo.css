@@ -1,0 +1,55 @@
+html, body {
+    overflow-x: hidden;
+    box-sizing: border-box
+}
+
+body{
+    margin: 0px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.fuente {
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.grueso{
+    font-weight: 600;
+}
+
+.linea{
+    margin-top: 20px;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#phone{
+    display:none;
+
+}
+
+#desktop{
+    display: block;
+}
+
+#enlace:hover{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    #phone{
+        display:block;
+    }
+
+    #desktop{
+        display: none;
+    }
+}
